@@ -14,6 +14,7 @@ body{
     margin:auto auto;
     padding:0;
     border-radius:10px;
+    padding-left: 50px;
 }
 ul a:hover{
     text-decoration: none;
@@ -25,7 +26,7 @@ figure{
     );
 border-radius:20px;
  
- margin: 25px auto auto 30px;
+ 
 }
 ul li{
     list-style: none;
@@ -35,3 +36,9 @@ figure #images_embed{
     height:400px;
 }
 
+hr{
+    margin: 0;
+    padding:0;
+    color:yellow;
+    width:fit-content;
+}
