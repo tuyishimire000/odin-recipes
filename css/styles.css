@@ -5,7 +5,8 @@
 body{
     background-color: antiquewhite;
     font-size: 26px;
-    text-align: center;
+    text-align:left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
     width: fit-content;
@@ -13,5 +14,20 @@ body{
     margin:auto auto;
     padding:0;
     border-radius:10px;
+}
+ul a:hover{
+    text-decoration: none;
+    color:red;
+}
+figure{
+    background: linear-gradient(90deg,gray 0%,
+    gray 30%,khaki 70%
+    );
+border-radius:20px;
+ letter-spacing: 10px;
+ margin-top: 10px;
+}
+ul li{
+    list-style: none;
 }
 
