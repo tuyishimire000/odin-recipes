@@ -24,13 +24,13 @@ figure{
     gray 30%,khaki 70%
     );
 border-radius:20px;
- letter-spacing: 2px;
- margin-top: 25px;
+ 
+ margin: 25px auto auto 30px;
 }
 ul li{
     list-style: none;
 }
-img{
+figure #images_embed{
     width:350px;
     height:400px;
 }
