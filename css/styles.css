@@ -76,7 +76,7 @@ body{
     background-color: rgb(33, 97, 7);
     color:aliceblue;
     border-radius: 10px;
-    padding: 50px;
+    padding: 30px;
 }
 #image_with_description{
     display:flex;
@@ -87,7 +87,7 @@ body{
     width:200px;
     height: 200px;
     flex: 0 1 auto;
-   
+   border-radius: 5px;
     align-self: center;
     margin-right: 200px;
 }
@@ -120,6 +120,10 @@ body{
     text-decoration: none;
     font-size: larger;
     border:5px solid aliceblue;
+}
+#back_button{
+    
+    margin-top: 25px;
 }
 
 #image_description_title,#ingredient-title,#pancake_steps_title{
